@@ -184,14 +184,14 @@ public class MusicServiceImpl implements MusicService {
 
     @Override
     public void last() {
-        if (order == PLAY_ORDER) {  //顺序播放
+        if (order == PLAY_ORDER) {    // 顺序播放
             if (currentIndex > 0) {
                 play(musicNames[--currentIndex]);
             } else {
                 currentIndex = musicNames.length - 1;
                 play(musicNames[currentIndex]);
             }
-        } else {    //随机播放
+        } else {      // 随机播放
             if (currentIndex > 0) {
                 play(randomNames[--currentIndex]);
             } else {
