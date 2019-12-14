@@ -19,7 +19,7 @@
             android:layout_width="80dp"
             android:layout_height="40dp"
             android:gravity="center|bottom"
-            android:text="@string/main_head_my"
+            android:text=" "
             android:textColor="@color/black"
             android:textSize="25sp"/>
 
@@ -27,7 +27,7 @@
             android:layout_width="80dp"
             android:layout_height="40dp"
             android:gravity="center|bottom"
-            android:text="@string/main_head_find"
+            android:text=" "
             android:textColor="@color/dimGrey"
             android:textSize="21sp"/>
 
@@ -35,7 +35,7 @@
             android:layout_width="80dp"
             android:layout_height="40dp"
             android:gravity="center|bottom"
-            android:text="@string/main_head_yuncun"
+            android:text=" "
             android:textColor="@color/dimGrey"
             android:textSize="21sp"/>
 
@@ -43,7 +43,7 @@
             android:layout_width="80dp"
             android:layout_height="40dp"
             android:gravity="center|bottom"
-            android:text="@string/main_head_video"
+            android:text=" "
             android:textColor="@color/dimGrey"
             android:textSize="21sp"/>
     </LinearLayout>
