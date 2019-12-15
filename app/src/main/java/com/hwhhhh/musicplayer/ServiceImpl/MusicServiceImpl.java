@@ -152,12 +152,12 @@ public class MusicServiceImpl implements MusicService {
     public void setPlayOrder(int i) {
         if (i == PLAY_ORDER) {
             order = PLAY_ORDER;
-            currentIndex = Arrays.binarySearch(musicNames, currentMusicName);     //二分法查找当前播放音乐的索引
+            currentIndex = Arrays.binarySearch(musicNames, currentMusicName);       //二分法查找当前播放音乐的索引
             Log.d(TAG, "setPlayOrder: currentIndex order " + currentIndex);
         } else {
             order = PLAY_RANDOM;
-            shuffleCard(musicNames);
-            currentIndex = search(randomNames, currentMusicName);    //二分法查找当前播放音乐的索引
+            shuffleCard(musicNames);                                        //
+            currentIndex = search(randomNames, currentMusicName);                  //二分法查找当前播放音乐的索引
             Log.d(TAG, "setPlayOrder: currentIndex random " + currentIndex);
         }
     }
